@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBot</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/JunusErgin/fast-ui@5bf7678f0b274c3063cd86702e4d52002757ea86/style.css">
+</head>
+<body>
+    <header>ChatBot</header>
+    <div class="container mt-16" id="msgContainer">
+        <div class="msg">Hi. Bitte stelle mir deine Frage.</div>
+    </div>
+    <form class="container container-bottom" onsubmit="postChatMessage(); return false;">
+        <input type="text" placeholder="Bitte Frage stellen..." id="chatField">
+        <button>Fragen</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
